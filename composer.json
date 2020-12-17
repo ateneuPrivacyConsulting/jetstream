@@ -13,12 +13,18 @@
             "email": "taylor@laravel.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ateneuPrivacyConsulting/fortify"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "ext-json": "*",
         "illuminate/support": "^8.0",
         "jenssegers/agent": "^2.6",
-        "laravel/fortify": "^1.0"
+        "laravel/fortify": "dev-withoutConstructorDI"
     },
     "require-dev": {
         "inertiajs/inertia-laravel": "^0.2.4",
